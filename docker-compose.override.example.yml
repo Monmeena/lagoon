@@ -1,0 +1,8 @@
+services:
+  cli:
+    secrets:
+      - composer-auth
+
+secrets:
+  composer-auth:
+    file: $HOME/.composer/auth.json
