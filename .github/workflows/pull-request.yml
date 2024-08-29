@@ -13,5 +13,5 @@ jobs:
       - name: 'Auto-assign PR'
         uses: pozil/auto-assign-issue@v2
         with:
-          teams: devops
+          assignees: steveworley,yusufhm
           numOfAssignee: 1
