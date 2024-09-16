@@ -41,7 +41,8 @@
             "drupal/core-composer-scaffold": true,
             "oomphinc/composer-installers-extender": true,
             "php-http/discovery": true,
-            "simplesamlphp/composer-module-installer": true
+            "simplesamlphp/composer-module-installer": false,
+            "simplesamlphp/composer-xmlprovider-installer": false
         }
     },
     "autoload": {
